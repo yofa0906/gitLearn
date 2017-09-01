@@ -45,6 +45,7 @@ plt.show()
 dataset.hist()
 plt.show()
 
-#scatter plot matrix
+#scater plot matrix
 scatter_matrix(dataset)
 plt.show()
+#teste
