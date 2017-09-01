@@ -39,6 +39,11 @@ print(dataset.groupby('class').size())
 elapsed_time4 = time.time() - start_time4
 print(elapsed_time4)
 
+start_timew4 = time.time()
+print(dataset.groupby('class').size())
+elapsed_time43 = time.time() - start_timew4
+print(elapsed_time43)
+
 #boxand whisker plots
 dataset.plot(kind='box',subplots=True,layout=(2,2),sharex=False,sharey=False)
 plt.show()
